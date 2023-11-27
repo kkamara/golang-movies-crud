@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Golang Movies Crud",
+    "dateExported": "2023-11-27T14:04:31.705Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cd3512b5-f22d-4e75-aae7-e80e79159a10",
+            "colId": "3609157c-6be4-42e0-810a-db4323550b5c",
+            "containerId": "",
+            "name": "GET ALL",
+            "url": "http://localhost:3000/movies",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-27T13:48:12.808Z",
+            "modified": "2023-11-27T13:48:59.355Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e68ab372-c6c6-4d4f-99f3-2359c9d53058",
+            "colId": "3609157c-6be4-42e0-810a-db4323550b5c",
+            "containerId": "",
+            "name": "GET BY ID",
+            "url": "http://localhost:3000/movies/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-27T13:48:19.711Z",
+            "modified": "2023-11-27T13:59:03.797Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "28327a19-d127-4696-9413-89ddb6832a61",
+            "colId": "3609157c-6be4-42e0-810a-db4323550b5c",
+            "containerId": "",
+            "name": "CREATE",
+            "url": "http://localhost:3000/movies",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-27T13:48:26.598Z",
+            "modified": "2023-11-27T14:01:06.769Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"isbn\": \"534227\",\n  \"title\": \"Movie Seven\",\n  \"director\": {\n    \"firstname\": \"Janey\",\n    \"lastname\": \"Doe\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "961639e9-8893-4fc9-9069-22e65d2290c1",
+            "colId": "3609157c-6be4-42e0-810a-db4323550b5c",
+            "containerId": "",
+            "name": "UPDATE",
+            "url": "http://localhost:3000/movies/98498081",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-11-27T13:48:33.406Z",
+            "modified": "2023-11-27T14:02:29.906Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"isbn\": \"45455\",\n  \"title\": \"Movie Seven\",\n  \"director\": {\n    \"firstname\": \"Arnold\",\n    \"lastname\": \"Doe\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1809cd56-2ab7-44e4-8648-b8397237c0e6",
+            "colId": "3609157c-6be4-42e0-810a-db4323550b5c",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:3000/movies/98498081",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-11-27T13:48:38.318Z",
+            "modified": "2023-11-27T14:04:22.313Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
